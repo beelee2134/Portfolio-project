@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Blog.apps.BlogConfig',
     'Jobs.apps.JobsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
